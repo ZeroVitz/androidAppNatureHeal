@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Nature heal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="mis_favoritos">Mis favoritos</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="sugerencia">Sugerencia</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="acerca_de_nature_heal">Acerca de Nature Heal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fParrafo">Nature Heal es una aplicación con fines educativos, creada por el equipo Dream Team conformado por Mauricio Camacho, Carlos Cruz, Grecia Guzmán. Estudiantes de segundo año de la carrera de Ingeniería de Sistemas de información de la Universidad Centroamérica. Esta aplicación tiene como visión dar un acompañamiento para las personas que han sufrido algún tipo de enfermedad, pero apoyándose únicamente de medicinas naturales.</string>
+    <string name="buscar_por_enfermedades">buscar_por_enfermedades</string>
+    <string name="advertencias">Advertencias:</string>
+    <string name="precauciones">Precauciones:</string>
+
+
+    <string-array name="opciones">
+        <item>Opcion A</item>
+        <item>Opcion B</item>
+        <item>Opcion C</item>
+        <item>Opcion D</item>
+    </string-array>
+
+    <string-array name="opcuenta">
+        <item>Alergias</item>
+        <item>Cambiar contraseña</item>
+        <item>Cambiar foto de perfil</item>
+        <item>Borrar cuenta</item>
+    </string-array>
+
+    <string-array name="remedios">
+        <item>Remedio 1</item>
+        <item>Remedio 2</item>
+        <item>Remedio 3</item>
+        <item>Remedio 4</item>
+        <item>Remedio 5</item>
+    </string-array>
+
+    <string-array name="enfermedades">
+        <item>Gripe</item>
+        <item>Dolor de estomago</item>
+        <item>Dolor de cabeza</item>
+        <item>Acne</item>
+        <item>Salpullido</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Ingresa_algo">Ingresa_algo</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="usuario">Usuario:</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="correo">Correo:</string>
+    <string name="instruccion">Elija su foto de perfil</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="paso1">Paso 1: Tu perfil</string>
+    <string name="paso2">Paso 2: ¿Alergias?</string>
+    <string name="alergias">Alergias:</string>
+    <string name="omitir">Omitir</string>
+    <string name="appname">Nature Heal</string>
+    <string name="alimientos">Alimientos:</string>
+    <string name="encuentraRemedios">Encuentra remedios caseros</string>
+    <string name="LoremIpsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</string>
+    <string name="semillaGieasol">Semillas de girasol para el higado</string>
+    <string name="bienvenidos">BIENVENIDOS A NATURE HEAL</string>
+    <string name="buscarEnfermedad">Buscar por enfemerdades</string>
+    <string name="copyright">Copyright@DreamTeamOrigins</string>
+    <string name="buscarRemedios">Buscar remedios caseros</string>
+    <string name="danosSugerencia">Danos tu sugerencia</string>
+    <string name="descartar">Descartar</string>
+    <string name="enviar">Enviar</string>
+    <string name="home">Home</string>
+
+</resources>
