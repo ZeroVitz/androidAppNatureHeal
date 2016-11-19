@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    private Boolean exit = false; //Booleano para salir
+    private Boolean exit = false;
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -53,25 +53,25 @@ public class MainActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
-            if (exit) {
-                finish(); // finish activity
-            } else {
-                Toast.makeText(this, "Presiona atras otra vez para salir.",
-                        Toast.LENGTH_SHORT).show();
-                exit = true;
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        exit = false;
-                    }
-                }, 3 * 1000);
-            }
         }
 
-        //Codigo para presionar atras para salir.
-        //El drawer no se selecciona al anterior
-    }
+        if (exit) {
+            finish(); // finish activity
+        } else {
+            Toast.makeText(this, "Presiona Atras otra vez para salir.",
+                    Toast.LENGTH_SHORT).show();
+            exit = true;
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    exit = false;
+                }
+            }, 3 * 1000);
 
+        }
+
+
+    }
 
 
     @SuppressWarnings("StatementWithEmptyBody")
